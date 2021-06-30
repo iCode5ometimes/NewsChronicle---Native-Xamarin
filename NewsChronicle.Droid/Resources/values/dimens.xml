@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="splash_screen_app_icon_yOffset">300dp</dimen>
+    <dimen name="splash_screen_app_title_yOffset">60dp</dimen>
+    <dimen name="splash_screen_app_subtitle_yOffset">0dp</dimen>
+    <dimen name="article_row_image_width">170dp</dimen>
+    <dimen name="article_row_title_text_size">20dp</dimen>
+    <dimen name="article_row_subtitle_text_size">14dp</dimen>
+    <dimen name="article_row_date_text_size">11dp</dimen>
+    <dimen name="article_row_source_name_text_size">11dp</dimen>
+    <dimen name="recycler_row_height">135dp</dimen>
+</resources>

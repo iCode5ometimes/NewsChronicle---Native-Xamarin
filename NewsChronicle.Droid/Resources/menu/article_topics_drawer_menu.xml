@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app    ="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Top Headlines"
+          app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single"
+                   android:id="@+id/top_headlines">
+                <item android:id     ="@+id/all_top_headlines"
+                      android:title  ="All"/>
+                <item android:id     ="@+id/health_top_headlines"
+                      android:title  ="Health" />
+                <item android:id     ="@+id/science_top_headlines"
+                      android:title  ="Science" />
+                <item android:id     ="@+id/sports_top_headlines"
+                      android:title  ="Sports" />
+                <item android:id     ="@+id/technology_top_headlines"
+                      android:title  ="Technology" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="All articles"
+          android:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single"
+                   android:id="@+id/all_articles">
+                <item android:id     ="@+id/newest_all_articles"
+                      android:title  ="Newest"/>
+                <item android:id     ="@+id/relevancy_all_articles"
+                      android:title  ="Relevancy" />
+                <item android:id     ="@+id/popularity_all_articles"
+                      android:title  ="Popularity" />
+            </group>
+        </menu>
+    </item>
+    
+</menu>

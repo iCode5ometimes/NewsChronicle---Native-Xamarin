@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item>
+    <color android:color="@color/splash_background"/>
+  </item>
+  <item android:bottom="@dimen/splash_screen_app_icon_yOffset">
+    <bitmap
+        android:src="@drawable/app_splash_screen_icon"
+        android:tileMode="disabled"
+        android:gravity="center"/>
+  </item>
+    <item android:bottom="@dimen/splash_screen_app_title_yOffset">
+        <bitmap
+            android:gravity="center"
+            android:tileMode="disabled"
+            android:src="@drawable/app_splash_screen_title"/>
+    </item>
+        <item android:bottom="@dimen/splash_screen_app_subtitle_yOffset">
+            <bitmap
+                android:gravity="center"
+                android:tileMode="disabled"
+                android:src="@drawable/app_splash_screen_creator_name"/>
+    </item>
+</layer-list>
